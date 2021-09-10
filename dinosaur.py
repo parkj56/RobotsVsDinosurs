@@ -9,7 +9,7 @@ class Dinosaur:
     def attack(self, robot):
         if (robot.health != 0):
             robot.health = robot.health - self.attack_power
-            print ("the robot has", robot.health, "left!" )
+            print ("you have", robot.health, "health left!" )
 
         
         
