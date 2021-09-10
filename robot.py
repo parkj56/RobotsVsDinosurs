@@ -8,5 +8,5 @@ class Robot:
 
     def attack(self, dinosaur):
         if (dinosaur.health != 0):
-            dinosaur.health = dinosaur.health - self.weapon.attack_powerpass
+            dinosaur.health = dinosaur.health - self.weapon.attack_power
             print("you have", dinosaur.health, "health left!")

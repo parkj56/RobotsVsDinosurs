@@ -15,6 +15,7 @@ class Fleet:
         weapon1= Weapon("saw hand", 10)
         weapon2= Weapon("lasers", 5)
         weapon3= Weapon("chopping", 15)
+        return[weapon1,weapon2,weapon3]
 
     
 
