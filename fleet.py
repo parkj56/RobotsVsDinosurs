@@ -1,6 +1,4 @@
-class Fleet:
-    def __init__(self) -> None:
-        self.robots= []
-    
-    def create_fleet(self):
-        pass
+from Robot import robot
+from Weapon import weapon
+
+

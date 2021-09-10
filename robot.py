@@ -1,6 +1,12 @@
 class Robot:
-    def __init__(self, name) -> None:
-        pass
+    def __init__(self, name, health, attack_power, weapon) -> None:
+        self.name= name
+        self.health= health
+        self.attackpower= attack_power
+        self.weapon= weapon
 
-    def attack(self, robot):
-        pass
+
+    def attack(self, dinosaur):
+        if (dinosaur.health != 0):
+            dinosaur.health = dinosaur.health - self.weapon.attack_powerpass
+            print("you have", dinosaur.health, "health left!")
